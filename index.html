@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dijital Kitap</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px 10px;
+    }
+
+    /* SİTE ÜST KISMI (HEADER) */
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+      max-width: 800px;
+      width: 100%;
+      border-bottom: 1px solid #333;
+      padding-bottom: 15px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      color: #ffffff;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 1rem;
+      color: #aaa;
+      font-style: italic;
+    }
+
+    /* KİTAP OKUYUCU KONTEYNERİ */
+    .book-container {
+      width: 100%;
+      max-width: 720px;
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      padding: 35px 30px;
+      min-height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    /* SAYFA İÇERİĞİ ALANI */
+    .page-content {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: #dddddd;
+      white-space: pre-line; /* Metin paragraflarını korur */
+      overflow-y: auto;
+      max-height: 550px;
+      padding-right: 10px;
+    }
+
+    /* KONTROL BUTONLARI VE SAYFA NUMARASI */
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid #2a2a2a;
+    }
+    button {
+      background-color: #2e2e2e;
+      color: #fff;
+      border: 1px solid #444;
+      padding: 10px 20px;
+      font-size: 0.95rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    button:hover:not(:disabled) {
+      background-color: #444;
+    }
+    button:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+    .page-number {
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ÜST KISIM (BAŞLIK / AÇIKLAMA) -->
+  <header>
+    <h1 id="book-title">KİTABIN BAŞLIĞI</h1>
+    <p id="book-subtitle">Yazar: Senin Adın | Dijital Eser</p>
+  </header>
+
+  <!-- SAĞA / SOLA KAYDIRMALI KİTAP PENCERESİ -->
+  <div class="book-container">
+    <div class="page-content" id="page-text">
+      Sayfa yükleniyor...
+    </div>
+
+    <div class="controls">
+      <button id="prev-btn" onclick="prevPage()">◄ Önceki Sayfa</button>
+      <span class="page-number" id="page-num">Sayfa 1 / 1</span>
+      <button id="next-btn" onclick="nextPage()">Sonraki Sayfa ►</button>
+    </div>
+  </div>
+
+  <script>
+    // TÜM KİTAP SAYFALARI (Sana vereceğim sayfaları buradaki tırnakların arasına ekleyeceksin)
+    const pages = [
+      `SAYFA 1
+      
+Buraya kitabın 1. sayfa metni gelecek.`,
+
+      `SAYFA 2
+      
+Buraya kitabın 2. sayfa metni gelecek.`,
+
+      `SAYFA 3
+      
+Buraya kitabın 3. sayfa metni gelecek.`
+    ];
+
+    let currentPage = 0;
+
+    function renderPage() {
+      const pageTextEl = document.getElementById('page-text');
+      const pageNumEl = document.getElementById('page-num');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+
+      pageTextEl.innerText = pages[currentPage];
+      pageNumEl.innerText = `Sayfa ${currentPage + 1} / ${pages.length}`;
+
+      prevBtn.disabled = currentPage === 0;
+      nextBtn.disabled = currentPage === pages.length - 1;
+
+      // Sayfa değişince en üste kaydır
+      pageTextEl.scrollTop = 0;
+    }
+
+    function nextPage() {
+      if (currentPage < pages.length - 1) {
+        currentPage++;
+        renderPage();
+      }
+    }
+
+    function prevPage() {
+      if (currentPage > 0) {
+        currentPage--;
+        renderPage();
+      }
+    }
+
+    // Sağa - Sola klavye ok tuşları ile sayfa değiştirme
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') nextPage();
+      if (e.key === 'ArrowLeft') prevPage();
+    });
+
+    // Sayfa yüklendiğinde ilk sayfayı göster
+    renderPage();
+  </script>
+</body>
+</html>
