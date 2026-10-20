@@ -102,7 +102,7 @@
   <!-- ÜST KISIM (BAŞLIK / AÇIKLAMA) -->
   <header>
     <h1 id="book-title">Bir Eşeğin Rüyası</h1>
-    <p id="book-subtitle">Yazar: Ensarcan | Dijital Eser</p>
+    <p id="book-subtitle">Yazarlar: Beratın Abileri | Dijital Eser</p>
   </header>
 
   <!-- SAĞA / SOLA KAYDIRMALI KİTAP PENCERESİ -->
@@ -123,52 +123,580 @@
 const pages = [
       `SAYFA 1
 
-BÖLÜM 1: ODADAKİ BİYOLOJİK TEHLİKE VE AURA EKSİLEME
+Odanın kapısını açtığınız an burnunuza çarpan o leş koku, insan evladının tanık olabileceği en büyük trajedilerden biriydi. Yarımlanmış enerji içeceği kutuları, masanın altında kendi ekosistemini kurmuş bayat cips paketleri ve en az üç haftadır yıkanmadığı için kaskatı kesilmiş kirli çoraplar... Berat denilen bu vasıfsız insan organizması, sandalyesinin gıcırtıları eşliğinde bilgisayar ekranına yapışmış durumdaydı. Sandalye artık adamın poposunun bir uzvuna dönüşmüştü amk.
 
-Odanın kapısını açtığınız an burnunuza çarpan o ilk koku, insan evladının tanık olabileceği en büyük trajedilerden biriydi. Yarımlanmış enerji içeceği kutuları, masanın altında kendi ekosistemini kurmuş bayat cips paketleri ve en az üç haftadır yıkanmadığı için sertleşip dik duran çoraplar... Berat denilen bu vasıfsız insan organizması, tam ortada, sandalyesinin gıcırtıları eşliğinde bilgisayar ekranına yapışmış durumdaydı. Sandalye artık onun poposunun bir uzvuna dönüşmüş, adeta vücutla bütünleşmişti.
+Bu çocuğun ne bir hayat gayesi vardı ne de geleceğe dair ufacık bir hedefi. Akşama kadar ekran karşısında kamburunu çıkarıp oturmaktan sırtı bükülmüş, yüzü güneş görmediği için patates çuvalı gibi sararmıştı. Hayatındaki tek başarı kriteri LoL'de silver kümesinde kalabilmek, Rust sunucusunda elin veledine evini kaptırmamak ve CS2'de takıma yük olmaktı. 
 
-Bu çocuğun ne bir hayat gayesi vardı ne de geleceğe dair ufacık bir hayali. Akşama kadar ekran karşısında kamburunu çıkarıp oturmaktan sırtı kamburlaşmış, yüzü güneş görmediği için patates çuvalı gibi sararmıştı. Hayatındaki tek başarı kriteri LoL'de silver kümesinde kalabilmek, Rust sunucusunda elin Rus veledine evini kaptırmamak ve CS2'de takıma yük olmaktı. 
-
-Kendi kafasında kurduğu o ezik fanteziler bir yana, gerçek dünyada eline dişi eli bile değmemiş, bir tane kız bile buna dönüp "merhaba" dememişti. Katıksız bir asosyal, tam anlamıyla hayırsız bir evlat abidesiydi.`,
+Kendi kafasında kurduğu o ezik fanteziler bir yana, gerçek dünyada eline dişi eli bile değmemiş, bir tane kız bile buna dönüp "merhaba" dememişti. Katıksız bir asosyal, tam anlamıyla hayırsız bir evlat abidesiydi amk.`,
 
       `SAYFA 2
 
-Odanın kapısı pat diye açıldı ve içeriye elinde viledasıyla annesi Saadet teyze girdi. Saadet teyzenin gözlerindeki o bıkkınlık, bir annenin evladından umudunu kestiği o son raddeydi.
+Odanın kapısı güm diye açıldı ve içeriye elinde viledasıyla Saadet teyze daldı. Saadet teyzenin gözlerindeki o bıkkınlık, bir annenin evladından umudunu kestiği o son raddeydi.
 
-"Oğlum senin bu odanın hali ne?!" diye avazı çıktığı kadar bağırdı Saadet teyze. "Pencereli zindan yaptın ulan burayı! Bakkala iki adım git desen gitmezsin, bir baltaya sap olmazsın, sabahtan akşama kadar o meretin tepesinde ömrünü çürüttün hayırsız! Yüzün insan yüzüne benzemekten çıktı, göbeğin kat kat oldu, senin gibi evlat olmaz olsun!"
+"Oğlum senin bu odanın hali ne amk?!" diye avazı çıktığı kadar bağırdı Saadet teyze. "Pencereli zindan yaptın ulan burayı! Bakkala iki adım git desen gitmezsin, bir baltaya sap olmazsın, sabahtan akşama kadar o meretin tepesinde ömrünü çürüttün hayırsız! Yüzün insan yüzüne benzemekten çıktı, göbeğin kat kat oldu, senin gibi evlat olmaz olsun amk!"
 
-Berat kafasını o devasa kulaklığın altından zorla kaldırıp, gözlerini devirerek çemkirdi: "Of anne afk'yım diyorum ya! Dur flex maçındayım, bağırma şurada auranı bozuyorsun amk!"
+Berat kafasını o devasa kulaklığın altından zorla kaldırıp çemkirdi: "Of anne afk'yım diyorum ya! Dur flex maçındayım, bağırma şurada auranı siktirme şimdi amk!"
 
-Saadet teyze elindeki vileda sapını yere vurup gözlerini devirdi: "Ne aurası be zevzek! Evde ekmek bitti ekmek! 20 yaşına geldin, daha sokakta bir tane arkadaşın yok, anca o ekran karşısında milletin anasına avradına sövüp 'mid diff' diye bağırıyorsun. Senin gibi hayırsızın teki ancak bu evde yatar zaten!"`,
+Saadet teyze elindeki vileda sapını yere vurup gözlerini devirdi: "Ne aurası be zevzek piç! Evde ekmek bitti ekmek! 20 yaşına geldin, daha sokakta bir tane arkadaşın yok, anca o ekran karşısında milletin anasına avradına sövüp 'mid diff' diye bağırıyorsun amk hayırsızı!"`,
 
       `SAYFA 3
 
-Saadet teyze kapıyı çarptı gitti. Berat ise hırsından, sinirinden gıcırlayan sandalyesinde yaylanıp klavyeye yumruk atmaya çalıştı ama kola içip cips yemekten pelteye dönmüş kollarında o güç bile yoktu. Klavye sadece hafifçe gıcırdadı.
+Saadet teyze kapıyı çarptı gitti. Berat ise hırsından, sinirinden gıcırlayan sandalyesinde yaylanıp klavyeye yumruk atmaya çalıştı ama kola içip cips yemekten pelteye dönmüş kollarında o güç bile yoktu. Klavye sadece hafifçe gıcırdadı amk.
 
-Berat içten içe "Ulan ben aslında anlaşılamayan bir dâhiyim, bu millet benim yüksek ıq seviyemi kaldıramıyor" diye kendini avutmaya çalışsa da acı gerçek ortadaydı: Berat, mahallenin en ezik, en çirkin ve en işe yaramaz insanıydı. Dışarı çıktığı an adımları birbirine dolaşır, ellerini cebine mi koysa, dışarıda mı tutsa bilemez, kaldırımda yürürken kendi ayağına takılıp düşme tehlikesi atlatırdı.
+Berat içten içe "Ulan ben aslında anlaşılamayan bir dâhiyim, bu millet benim yüksek IQ seviyemi kaldıramıyor amk" diye kendini avutmaya çalışsa da acı gerçek ortadaydı: Berat, mahallenin en ezik, en çirkin ve en işe yaramaz insanıydı. Dışarı çıktığı an adımları birbirine dolaşır, ellerini cebine mi koysa, dışarıda mı tutsa bilemez, kaldırımda yürürken kendi ayağına takılıp düşme tehlikesi atlatırdı.
 
-Sokakta karşıdan havalı birileri gelse Berat’ın beyni anında mavi ekran verir, kapüşonunu gözlerine kadar çekip duvara yapışarak yürümeye başlardı. Sokaktaki mahalle kedisi bile buna ters ters bakar, Berat panikleyip yolunu değiştirirdi. Aura puanı eksi yüz binlerde gezinen tam bir fiyaskoydu.`,
+Sokakta karşıdan havalı birileri gelse Berat’ın beyni anında mavi ekran verir, kapüşonunu gözlerine kadar çekip duvara yapışarak yürümeye başlardı. Sokaktaki mahalle kedisi bile buna ters ters bakar, Berat panikleyip yolunu değiştirirdi. Aura puanı eksi yüz binlerde gezinen tam bir fiyaskoydu amk.`,
 
       `SAYFA 4
 
-BÖLÜM 2: DİSCORD KRALLIĞI VE SOKAK TRAVMALARI
+Berat'ın tüm sosyal krallığı Discord'daki üç kişilik bomboş sunucusundan ibaretti. O sunucuda 'Yönetici' rolüne sahip olmak ona sanki dünyayı yönetiyormuş gibi bir güç hissi veriyordu. Ancak odadaki tek canlı kendisi ve odaya kurduğu ses botuydu amk.
 
-Berat'ın tüm sosyal krallığı Discord'daki üç kişilik bomboş sunucusundan ibaretti. O sunucuda 'Yönetici' rolüne sahip olmak ona sanki dünyayı yönetiyormuş gibi bir güç hissi veriyordu. Ancak odadaki tek canlı kendisi ve odaya kurduğu ses botuydu.
+Mikrofonu açıp konuşmak onun için uzaya mekik fırlatmak kadar stresli bir işti. Genellikle sesli kanalda "mute" tuşuna basar, sohbet alanına arada bir sadece nokta (.) atarak "buradayım" mesajı vermeye çalışırdı. Sunucudakiler acıyıp "Berat yaşıyor musun lan amk?" diye sorunca da "Afk'ydim kanka ya, sular idaresinden aradılar da" gibi hayatında bir kez bile yapmadığı yetişkin yalanları uydururdu.
 
-Mikrofonu açıp konuşmak onun için uzaya mekik fırlatmak kadar stresli bir işti. Genellikle sesli kanalda "mute" tuşuna basar, sohbet alanına arada bir sadece nokta (.) atarak "buradayım" mesajı vermeye çalışırdı. Sunucudakiler acıyıp "Berat yaşıyor musun lan?" diye sorunca da "Afk'ydim kanka ya, sular idaresinden aradılar da" gibi hayatında bir kez bile yapmadığı yetişkin yalanları uydururdu.
-
-Masanın üzerindeki üç günlük küflenmiş kek parçası ve dibinde iki parmak kalmış asidi kaçmış kola ile baş başa kaldığında, yine kendi ezik dünyasına gömülürdü. Bilgisayarda birilerini vurunca kendisini kral sanır, ama gerçekte anasının attığı bir terlikle yatağın altına saklanacak kadar korkak bir tipti.`,
+Masanın üzerindeki üç günlük küflenmiş kek parçası ve dibinde iki parmak kalmış asidi kaçmış kola ile baş başa kaldığında, yine kendi ezik dünyasına gömülürdü. Bilgisayarda birilerini vurunca kendisini kral sanır, ama gerçekte anasının attığı bir terlikle yatağın altına saklanacak kadar korkak bir tipti amk.`,
 
       `SAYFA 5
 
-BÖLÜM 3: BAKKAL SEFERİ VE BÜYÜK REZİLLİK
+Birkaç gün sonra Saadet teyzenin baskılarına dayanamayıp zorunlu olarak dışarı çıkmak zorunda kaldı. Saadet teyze eline 50 lira tutuşturup "Git bakkaldan iki kilo yoğurt al, yolda da düzgün yürü mal mal bakma insanlara amk!" diyerek bunu sokağa fırlattı.
 
-Birkaç gün sonra Saadet teyzenin baskılarına dayanamayıp zorunlu olarak dışarı çıkmak zorunda kaldı. Saadet teyze eline 50 lira tutuşturup "Git bakkaldan iki kilo yoğurt al, yolda da düzgün yürü mal mal bakma insanlara!" diyerek bunu sokağa fırlattı.
+Berat kapüşonlusunu kafasına geçirip, gözlerini kaldırımlara dikerek yürümeye başladı. Yolda mahallenin gençleri kaldırımda oturmuş çay içiyordu. Berat onları görünce panikten adımlarını öyle bir hızlandırdı ki, sanki arkasından polis kovalıyordu. Tam gençlerin önünden geçerken ayağı kaldırım taşına takıldı, yoğurt parası elinden fırlayıp rüzgarda uçtu amk.
 
-Berat kapüşonlusunu kafasına geçirip, gözlerini kaldırımlara dikerek yürümeye başladı. Yolda mahallenin gençleri kaldırımda oturmuş çay içiyordu. Berat onları görünce panikten adımlarını öyle bir hızlandırdı ki, sanki arkasından polis kovalıyordu. Tam gençlerin önünden geçerken ayağı kaldırım taşına takıldı, yoğurt parası elinden fırlayıp rüzgarda uçtu.
+Mahalledeki gençler bastı kahkahayı. Berat kıpkırmızı olmuş suratıyla parayı çimlerin arasından toplarken gruptan biri "Yavaş lan koşucu piç, maratona mı yetişiyon amk!" diye bağırdı. Berat cevap bile veremedi, sadece önüne bakıp "Tamam kanka amk" gibi anlamsız bir şey mırıldanıp bakkala doğru kaçtı. Aura puanı tamamen sıfırlanmıştı.`,
 
-Mahalledeki gençler bastı kahkahayı. Berat kıpkırmızı olmuş suratıyla parayı çimlerin arasından toplarken gruptan biri "Yavaş lan koşucu, maratona mı yetişiyon!" diye bağırdı. Berat cevap bile veremedi, sadece önüne bakıp "Tamam kanka" gibi anlamsız bir şey mırıldanıp bakkala doğru kaçtı. Aura puanı o an itibarıyla tamamen yok olmuştu.`
-    ];
+      `SAYFA 6
+
+Sırılsıklam ter içinde bakkala daldığında Hüseyin amca kasanın arkasında gazetesini okuyordu. Berat, nefes nefese kalmış bir halde, sanki maratondan çıkmış gibi masaya abandı amk. Hüseyin amca gazeteyi yavaşça indirip gözlüğünün üstünden Berat’a şöyle bir baktı.
+
+"Ulan Berat," dedi Hüseyin amca derin bir iç çekerek. "Seni ne zaman görsem yüzün daha da sararmış oluyor amk. Oğlum sen hiç mi güneş görmüyorsun, hiç mi sokağa çıkmıyorsun? Annen geçen gün ağlamaklı anlatıyor, 'bu çocuk evde küflendi' diye. Git bir spora yazıl, bir işin ucundan tut amk."
+
+Berat lafın altında kalmamak için güya dik durmaya çalıştı ama boğazı kuruduğu için sesi kısık çıktı: "Ya Hüseyin amca sen ver şu iki kilo yoğurdu amk, acelem var flex maçına yetişeceğim!" Hüseyin amca 'senin sıfatını sikeyim' der gibi kafasını sallayarak yoğurdu poşete koydu. Berat yoğurdu kaptığı gibi koşar adım eve kaçtı.`,
+
+      `SAYFA 7
+
+Eve ulaşıp kapıyı arkasından kilitlediğinde sanki cepheden sağ çıkmış bir asker gibi derin bir nefes aldı. Yoğurdu mutfak tezgahına fırlatıp koşar adım odasına geçti. Güvenli bölgesindeydi artık amk.
+
+Sandalyesine öyle bir çöktü ki gıcırtısı bütün evde yankılandı. Hemen LoL'ü açtı. Geçen maçta takımındaki adamlardan biri buna "kanka sen bu oyunu elinle mi oynuyorsun yoksa ayak parmaklarınla mı amk?" diye sövdüğü için hırslanmıştı. "Bu maç taşıyacağım, hepsinin anasını sikeceğim" diyerek maça girdi.
+
+Ama Berat'ın unuttuğu bir şey vardı: Oyundaki yeteneği de gerçek hayattaki vasıf seviyesiyle tamamen aynıydı. Maçın henüz 5. dakikasında karşı rakipten 3 kere solo kill yeyip koridoru otobana çevirdi. Chat'e "kanka jg diff amk ya, yardım gelmiyor ki!" yazarak suçu anında takım arkadaşına attı. Takımdakiler buna topluca sövmeye başlayınca Berat oyunu alt-f4 çekip kapattı.`,
+
+      `SAYFA 8
+
+LoL’den yediği darbenin ardından gururu kırılan Berat, hırsını çıkarmak için Rust sunucusuna girmeye karar verdi. Rust onun için gerçek hayatın rövanşıydı amk. Orada devasa bir tahta kale kurmuştu.
+
+"İşte burada bana kimse dokunamaz amk, ben bu haritanın kralıyım" diyerek oyunda yürümeye başladı. Fakat tam o sırada kapısının önünden güm güm ayak sesleri gelmeye başladı. Berat panikle elindeki ilkel mızrağı çekip kapının arkasına pusarak bekledi.
+
+Dışarıdaki adamlar mikrofondan "İçerideki vasıfsız piç, kapıyı aç yoksa C4 koyup evi başına yıkacağız amk!" diye bağırdı. Berat heyecandan elindeki mızrağı yanlışlıkla duvara fırlattı. Mikrofona titrek bir sesle "Kanka valla bir şeyim yok, yeni başladım yapmayın valla amk!" diye yalvarmaya başladı. Adamlar Berat’ın bu acınası halini görünce kahkahayı bastı.`,
+
+      `SAYFA 9
+
+GÜM! Devasa bir patlama sesiyle Berat’ın günlerdir emek verdiği, cips kırıntıları eşliğinde inşa ettiği o ezik tahta ev darmadağın oldu amk. Adamlar içeri girip Berat’ın karakterini mızrakla pataklayarak öldürdü.
+
+"Sen git önce gerçek hayatta bir ev tut koçum amk" diyerek trollediler. Berat ekrana bakakaldı. Ne gerçek dünyada bir saygınlığı vardı ne de sanal dünyada kurduğu o ezik kulübeyi koruyabiliyordu. Öfkeyle masaya bir yumruk attı. Masadaki yarım kalmış enerji içeceği kutusu devrildi ve direkt klavyenin üzerine döküldü.
+
+"HASSİKTİR!" diye bağırdı Berat. Şekerli sıvı tuşların arasına sızarken Berat panikle peçete aramaya başladı ama odada temiz hiçbir şey yoktu. Üç haftalık kirli çorabını kapıp klavyeyi silmeye çalıştı amk.`,
+
+      `SAYFA 10
+
+Klavyeyi çorapla temizlemeye çalışırken çıkardığı patırtıya Saadet teyze uyandı. Kapı alacakaranlıkta hışımla açıldı. Saadet teyze elinde terliğiyle belirdi.
+
+"Saat gecenin üçü ulan hayırsız piç!" diye kükredi Saadet teyze. "Ne bağırıyorsun sen yine o odada tek başına?! Ne döktün yine o masaya amk leş gibi kokuyor!"
+
+Berat panikle "Anne valla kola döküldü ya, kaza oldu valla bağırma hemen amk!" diye sızlandı. Saadet teyze masadaki çoraplı temizlik manzarasını görünce terliği tam Berat’ın sırtının ortasına yapıştırdı.
+
+"Kola değil senin miskinliğin dökülmüş buraya amk!" dedi Saadet teyze. "Yarın ilk iş o bilgisayarı fişten çekiyorum, seni de mahalledeki marangoz Rıza ustanın yanına çırak veriyorum! Yeter ulan, seni mi çekeceğim ben amk!" Saadet teyze kapıyı güm diye kapattı.`,
+
+      `SAYFA 11
+
+Gece Saadet teyzenin terlik darbesinden sonra Berat sabahın 11'ine kadar masanın başında sızıp kalmıştı. Kafası klavyenin tam üzerine düşmüş, yanağı gece dökülen şekerli kola artığına yapışmıştı amk. Doğrulmaya çalıştığında "çat" diye bir ses çıktı; yüzü resmen klavyenin 'W', 'A', 'S', 'D' tuşlarına yapışıp kalmıştı. Yanağında 'W' harfinin ters izi çıkmış bir halde aynaya baktı.
+
+"Sikerim böyle işi amk ya," diye mırıldandı. Mutfağa geçtiğinde masanın üstünde bir not duruyordu: "Akşama marangoz Rıza Usta'nın yanına gidiyoruz, hazırlan amk hayırsızı."
+
+Berat notu görünce soğuk terler dökmeye başladı. Marangozluk mu? Berat'ın hayatında kaldırdığı en ağır nesne 2 litrelik kola şişesiydi amk. Ağaç taşımak, talaş yutmak düşüncesi bile onun aura puanını anında yerin yedi kat dibine soktu.`,
+
+      `SAYFA 12
+
+Panik içerisinde hemen odasına koştu. Marangoz Rıza Usta’nın yanında çırak olmak demek, gün ışığı görmek ve Rust sunucusundaki haftalık wipe'ı kaçırmak demekti amk!
+
+Hemen YouTube'u açıp "1 günde evden çıkmadan nasıl milyoner olunur sigma male tavsiyeleri" videosu izlemere başladı. Videodaki bıyıklı adam "Soğuk duş alın, günde 4 saat uyuyun, kimseden korkmayın" diyordu.
+
+Berat kendi kendine gaza geldi. "Ben bir sigmayım amk, marangozda talaş toplayacak adam değilim!" diyerek banyoya koştu. Soğuk suyu sonuna kadar açıp kafasını altına soktu. Daha su değdiği an "Ayyy ananı sikeyim!" diye çığlığı basıp geriye fırladı ve banyo fayansına kayıp kıç üstü yapıştı amk.`,
+
+      `SAYFA 13
+
+Akşam saat 17:00'de Saadet teyze kapıyı hışımla açtı. "Kalk ulan hayırsız! Rıza Usta dükkanı kapatmadan yetişeceğiz, düş önüme amk!" dedi.
+
+Berat itiraz bile edemedi. Kapüşonlusunu kafasına çekip Saadet teyzenin arkasından süklüm püklüm yürümeye başladı. Sanayi sitesine geldiklerinde dükkanın önünde devasa cüsseli Rıza Usta duruyordu.
+
+Saadet teyze, "Rıza Usta, getirdim benim bu evde küflenen vasıfsız piçi," dedi. Rıza Usta Berat’a baktı, o omuzları çökmüş, gözlerinin altı morarmış tipini görünce "Abla bu çocuk tahta bile taşıyamaz amk, bunun kolları jöle gibi olmuş" dedi.`,
+
+      `SAYFA 14
+
+Berat lafın altında kalmamak için "Ben bilgisayarda çok hızlıyım usta, reflekslerim sağlamdır amk" diye araya girmeye çalıştı. Rıza Usta kahkahayı bastı: "Ulan velet, bilgisayardaki refleksle sunta mı taşınır amk? Tut bakayım şu kalanın ucundan!"
+
+Berat gaza gelip kalaya sarıldı. "Hıııınggg!" diye bir ses çıkararak kalayı kaldırmaya çalıştı ama tahta milim kımıldamadı amk. Aksine Berat’ın dizleri titremeye başladı ve "Çat!" diye sırtından bir ses geldi. Belini incitmişti. Kalayı elinden düşürdü, tahta Rıza Usta’nın ayakkabısının ucuna teğet geçti.
+
+Rıza Usta öfkeyle bağırdı: "Ulan geri zekalı piç! Ayağımı sakatlayacaktın! Abla al git şu çöpü buradan amk!" Saadet teyze Berat’ın kulağından tuttuğu gibi dükkandan dışarı sürükledi.`,
+
+`SAYFA 16
+
+Belindeki ağrıya ve yanağındaki 'W' harfi izine rağmen Berat, bilgisayarın karşısından bir milim bile geri adım atmadı amk. "Şimdi sırada intikam var, analarını ağlatacağım!" diyerek CS2'yi açtı. Maça girer girmez takımına iki tane Rus, bir tane Polonyalı, bir tane de Türk denk geldi. Berat havalı görünmek için mikrofona yaklaştı, sesini gürleştirmeye çalışarak "Sa beyler, kim nereye bakıyor amk?" dedi.
+
+Ancak heyecandan sesi öyle bir çatladı ki, mikrofonun kalitesizliğinden dolayı karşı tarafa sadece bir cızırtı ve "Vik vik" diye bir ses gitti amk. Takımdaki Türk oyuncu anında mikrofonu açtı: "Ulan bu ses ne amk, odana helikopter mi indi piç? Kapat şu mikrofonu beynimiz sikildi!"
+
+Berat'ın suratı bir anda ısındı. Kulakları kıpkırmızı oldu. Panikle "Mute" butonuna bastı ama eli ayağına dolandığı için maça odaklanamadı. İlk el eline aldığı tabancayı şarjör değiştireyim derken yanlışlıkla yere attı. Karşı rakipten tek mermi yeyip geberdi. Takımdakiler chat'e topluca "Kick this bot amk" yazmaya başladı. Aura puanı yerin yedi kat dibine çakılmıştı.`,
+
+      `SAYFA 17
+
+Henüz 3. elde takım arkadaşları oylama başlattı. Ekranda "Kick player: Berat?" yazısı belirdi. 4 kişi birden "Evet" oyunu bastı ve Berat çat diye ana menüye fırlatıldı amk. Ekrana bakakaldı. Ne gerçek hayatta bir saygınlığı vardı ne de sanal dünyadaki elin veletleri bunu aralarına alıyordu.
+
+Hırsından kuduran Berat, suçu hemen ekipmanlara attı. "Ulan ekipmanım kötü amk! Bende 240Hz monitör olsa, profesyonel oyuncu kulaklığım olsa ben bu piçleri tek başıma ipe dizerdim!" diye kendi kendini kandırmaya başladı. Oysa elindeki fareyi bile cipsli elleriyle tuttuğu için tuşları yapış yapış olmuş, tıklamak için ekstra güç harcaması gerekiyordu amk.
+
+Tam o sırada odanın kapısı aralandı. İçeriye Saadet teyze kafasını uzattı. "Yine ne böğürüyorsun sen orada amk vasıfsızı?" dedi. Berat hemen toparlanmaya çalıştı: "Anne ekipmanlarım yetersiz ya, bu bilgisayarla dijital kariyer yapamam ben, bana yeni sistem lazım amk!" Saadet teyze terliği elinde tartarak, "Sana yeni sistem değil, yeni bir kafa lazım oroposu fırlatması! Yarın eve boyacı gelecek, o odadaki leş kokulu çöp dağını toplamazsan seni o boya kovasına batırır çıkarırım amk!" diyerek kapıyı güm diye kapattı.`,
+
+      `SAYFA 18
+
+Ertesi sabah saat 09:00'da Saadet teyze Berat’ın odasına adeta bir baskın düzenledi. Elinde devasa siyah çöp poşetleriyle içeri girdi. "Kalk ulan gütü boklu! Boyacı Usta birazdan gelecek, şu pisliğini topla çabuk amk!" diye kükredi.
+
+Berat uykulu gözlerle yataktan yuvarlandı. Yatağın altından çıkardığı boş enerji içeceği kutuları, dünün ve geçen haftanın cips paketleri, küflenmiş ekmek kabukları ve kurumuş çoraplar poşetleri doldurmaya başladı. Odadan tam 4 büyük boy çöp poşeti çıktı amk. Berat kendi odasındaki çöp miktarını görünce kendisi bile utandı ama çaktırmamaya çalıştı.
+
+"Bunlar benim stratejik stoklarımdı anne ya amk," diye mırıldandı. Saadet teyze poşetleri kapının önüne taşırken, "Senin stratejik dediğin şey biyolojik silah ulan piç! Mahalledeki kediler bile senin odanın penceresinin altından geçmiyor leş kokusundan amk!" diye sövdü. Berat masasını silerken boyacı Usta kapıdan içeri girdi.`,
+
+      `SAYFA 19
+
+İçeri giren İsmail Usta, tulumunu giymiş, elinde rulosuyla odaya şöyle bir göz attı. Adam içeri girer girmez bir an duraksadı, burnunu tuttu ve "Abla burada biri mi öldü, bu ne kokusu amk?" diye sordu. Saadet teyze mahcup bir şekilde Berat’ı işaret etti: "Yok usta, benim hayırsız evlat yıllardır bu odada çürüyor da, havalandırıyoruz işte amk."
+
+İsmail Usta Berat’a baktı. Berat o sırada sandalyesine sinmiş, kulaklığını boynuna asmış, telefonundan koca kafalı bir oyun yayını izliyordu. Usta kafasını salladı: "Genç, kalk bakayım oradan amk, duvarları kazıyacağız. Biraz kas gücü lazım, tut şu merdivenin ucundan!"
+
+Berat "Benim belim sakat usta amk, marangozda sakatladım" diye sızlandı. İsmail Usta kahkahayı bastı: "Ulan marangozda sunta bile taşıyamayan velet sen misin amk? Bütün mahalle seni konuşıyor! Rıza Usta senin için 'elinde güç yok, kemik yerine jöle var bu piçte' diyordu!" Berat yerin dibine girdi amk. Mahallede rezilliği bile yayılmıştı.`,
+
+      `SAYFA 20
+
+İsmail Usta duvara plastik boyayı sürerken Berat odanın köşesinde büzüşmüş bir halde telefonla oynamaya devam ediyordu. "Ulan bir gün zengin olacağım, bu mahalleyi komple satın alıp Rıza Usta'nın da İsmail Usta'nın da amına koyacağım" diye içinden intikam planları yapıyordu.
+
+Ancak kaderin Berat için başka planları vardı amk. İsmail Usta yukarı tavanı boyarken merdiveni biraz fazla salladı. Merdivenin tepesindeki yarım kova tavan boyası dengesini kaybetti. Berat tam aşağıda oturmuş TikTok'ta 'aura nasıl yükseltilir' videosu izlerken, kova gürültüyle aşağı kaydı.
+
+"ŞLAKKKK!"
+
+Kovanın içindeki bembeyaz tavan boyası tam olarak Berat’ın kafasından aşağı boca oldu amk. Saçları, yüzü, kapüşonlusu ve hatta gözlükleri tamamen kireç gibi bembeyaz boyaya bulandı. Berat neye uğradığını şaşırdı, gözlerini açamadı, "Aaaah gözüm! Boya kaçtı amına koyayım!" diye bağırmaya başladı.`,
+
+      `SAYFA 21
+
+İsmail Usta panikle "Ulan velet niye merdivenin dibinde oturuyorsun amk!" diye bağırırken, çığlıklara Saadet teyze odaya koştu. Karşısında kafasından aşağı bembeyaz boya süzülen, gözleri kapalı bir halde kollarını sallayan Berat’ı görünce kadın bir an dondu.
+
+Ardından Saadet teyze öyle bir kahkaha patlattı ki, binanın dışından bile duyuldu amk. "Ayyy ilahi ulan! Yıllardır güneş görmüyordun, bak boyayla bembeyaz oldun amk! Tam bir döl heykeline benzedin hayırsız piç!" diyerek gülmekten gözlerinden yaş geldi.
+
+Berat kireç gibi beyazlamış suratıyla "Anne gülme ya! Kör oluyorum amk!" diye bağırıp banyoya doğru yalpalamaya başladı. Banyoya giderken koridordaki duvara çarptı, kapının kasasına tosladı ve geride bembeyaz boya izleri bıraktı amk. Aura puanı bu olayla birlikte galaksiler arası eksi seviyelere ulaşmıştı.`,
+
+      `SAYFA 22
+
+Banyoya daldığı gibi sıcak suyu açtı. Yüzündeki ve saçındaki tavan boyasını ovalayarak çıkarmaya çalıştı ama boya kurumaya başladığı için saçları taş gibi sertleşmişti amk. Sabunu sürüyor, şampuanı döküyor ama boya bir türlü çıkmıyordu. Saçları adeta kireçten yapılmış bir peruk gibi kafasında kaskatı kalmıştı.
+
+Saadet teyze banyonun kapısına gelip, "Oğlum o boya suyla çıkmaz, tiner lazım ona amk!" dedi. Berat panikle, "Tiner mi? Yüzüm yanar amk saçmalama!" diye bağırdı. Saadet teyze "Yansın da içinin pisliği temizlensin amk!" diyerek mutfaktan getirdiği zeytinyağlı sabunu Berat’ın eline tutuşturdu.
+
+Saatlerce banyoda çitilenen Berat, en sonunda boyayı biraz olsun çıkardı ama saçlarının yarısı dökülmüş, derisi kıpkırmızı olmuştu. Aynaya baktığında karşılaştığı manzara tam bir felaketti: Kafasında tutam tutam kalmış sertleşmiş saçlar, kızarmış bir surat ve gözlerinin altında mor halkalar. "Karakter oluşturma ekranında rastgele butonuna bassam bundan daha iyi tipli bir piç çıkardı amk" diye kendi kendine lanet okudu.`,
+
+      `SAYFA 23
+
+Ertesi gün Saadet teyze Berat’ın kurumuş kıyafetlerini çöpe attığı için Berat evde giyecek tek şey olarak babasından kalma devasa, bol ve yırtık bir eşofman takımı bulabildi. Saçları da yolunmuş tavuk gibi olduğu için kafasına eski bir bere geçirmek zorunda kaldı amk.
+
+Saadet teyze eline yine liste tutuşturdu: "Git eczaneden bana tansiyon ilacı al, gelirken de ekmek al amk! Bu sefer üzerine kova devirme sakın vasıfsız piç!" Berat tıpış tıpış dışarı çıktı. Sokakta yürürken kafasındaki bereden sızan kurumuş beyaz boya kırıntıları omuzlarına dökülüyordu.
+
+Mahalledeki gençler yine köşedeydi amk. Berat’ın bu perişan halini, beresinin altından sarkan o sertleşmiş saçları görünce gruptan biri "Ooo Berat naber lan piç? Kutup ayısına dönmüşsün amk, kış mı geldi sana?" diye bağırdı. Berat kafasını iyice göğsüne gömdü, "İşiniz gücünüz yok mu amk evlatları" diye içinden söverek eczaneye doğru adımlarını hızlandırdı.`,
+
+      `SAYFA 24
+
+Eczaneye girdiğinde içeride sadece eczacı kalfası olan genç bir kız vardı. Berat kızı görünce bir an kilitlendi. Hayatında bir kızla yüz yüze geleceği an bu andı amk! Beyni anında eridi, kalbi güm güm atmaya başladı.
+
+Kız gülümseyerek "Buyurun, nasıl yardımcı olabilirim?" dedi. Berat ne diyeceğini unuttu. Saadet teyzenin yazdığı kağıdı kızın önüne uzatırken eli titredi, kağıt masadan kayıp yere düştü. Berat eğilip kağıdı almaya çalışırken kafasındaki bere kaydı ve yolunmuş tavuk gibi kalmış boyalı saçları ortaya çıktı amk.
+
+Kız gözlerini açarak şaşkınlıkla Berat’a baktı. Berat panikle kağıdı kaptı, kızın yüzüne bile bakamadan "Tansiyon ilacı var mı Saadet teyzeye amk... yani Saadet hanıma..." diye saçmalamaya başladı. Kız gülmemek için kendini zor tutarak ilacı poşete koydu. "35 lira" dedi. Berat cebinden çıkardığı buruşuk parayı masaya fırlatır gibi koyup ilacı kaptığı gibi eczaneden dışarı kaçtı.`,
+
+      `SAYFA 25
+
+Eczaneden öyle bir kaçtı ki, mahalleden geçerken rüzgar gibi esti amk. Eve gelip kapıyı arkasından kilitlediğinde nefes nefeseydi. Güvenli bölgesindeydi ama gururu paramparça olmuştu. Kızın önünde düştüğü o durum, hayatı boyunca unutamayacağı bir travmaya dönüşmüştü.
+
+"Ulan bir daha dışarı çıkanın anasını sikeyim amk!" diye bağırdı odasına girerken. Bilgisayar koltuğuna çöktü. Sandalye yine tanıdık gıcırtısıyla onu karşıladı. Odası boyanmış, mis gibi tavan boyası kokuyordu ama Berat’ın içindeki o eziklik kokusu bir türlü geçmiyordu.
+
+Klavyenin başına geçti. "Görürsünüz siz amk veletleri," dedi monitöre bakarak. "Ben bu odadan çıkmayacağım ama öyle bir yayıncı olacağım ki, o eczacı kız da, mahalledeki o piçler de benim kapımda sıra olacak!" Ancak twitch hesabı açmaya çalışırken kullanıcı adı olarak 'Aura_King_Berat' seçtiğinde sistemin "Bu kullanıcı adı daha önce alınmış" uyarısı vermesiyle ilk dijital darbesini yedi amk.`,
+
+      `SAYFA 26
+
+Eczanedeki rezillikten sonra 'Aura_King_Berat' kullanıcı adının bile dolu olduğunu görünce ekran karşısında tam anlamıyla dona kaldı amk. Kendi kafasında kurduğu o muazzam yayıncılık imparatorluğu daha isim seçme aşamasında duvara toslamıştı. Hırsından klavyenin tuşlarına rastgele basıp kullanıcı adını 'X_Berat_Sigma_06_X' yapmaya çalıştı ama sistem bu sefer de 'Çok fazla özel karakter içeriyor' uyarısı verdi.
+
+"Sikerim böyle sistemi de, şansı da amk!" diye bağırdı ekrana doğru. En sonunda sistemin önerdiği ve tam bir ezik ismi olan 'User_9847239' kullanıcı adını kabul etmek zorunda kaldı. Yayını açtı, kamerasını ayarladı ama kamerasının camı o kadar yağlı ve kirliydi ki ekranda sadece sisler arasında beliren belirsiz bir yaratık silueti görünüyordu amk.
+
+Chat ekranını yan monitöre sabitledi. Yayına kimse gelmiyordu. Yayın başlığında 'DÜNYANIN EN İYİ CS2 VE LOL OYUNCUSU (CHALLENGER YOLU)' yazıyordu ama izleyici sayısı koskocaman bir '0' olarak kalmaya devam ediyordu. Berat, sanki arkasında binlerce kişi varmış gibi gürleşmeye çalışan sesiyle "Evet beyler hoş geldiniz amk, bugün yayında yargı dağıtacağız" diyerek kendi kendine konuşmaya başladı.`,
+
+      `SAYFA 27
+
+Kendi kendine konuştuğu o ilk yarım saatin sonunda yayın sohbetine aniden biri katıldı. Kullanıcı adı 'Mahalleli_Rıza' olan bir hesaptı bu. Chat'e ilk mesaj olarak şunu yazdı: "Ulan Berat sen misin bu piç? Kamera niye bulanık amk, odada yangın mı çıktı?"
+
+Berat'ın kalbi güm güm atmaya başladı. İlk izleyicisi gelmişti ama gelen adam da muhtemelen mahalleden bir piçti. Panikle "Kamera kaliteli kanka ya, yayın donanımı yüksek ondan öyle görünüyordu amk" diye saçma bir yalan uydurdu. Chat'teki adam anında cevabı yapıştırdı: "Ne kalitesi amk, kameraya salam mı sürdün bu ne hal? Ayrıca git saçını tara boya kırıntıları hâlâ berenin altından çıkıyor amk veledi!"
+
+Berat rezil olduğunu anlayınca çabucak sohbeti kapatıp oyuna dönmeye çalıştı. Ama o panikle LoL maçında rünleri yanlış seçmiş, tank karakterine büyücü rünü alarak maça girmişti amk. Karşı rakipten dakikalar içinde 5 kere kill yeyince chat'teki tek izleyicisi "Senden yayıncı değil, anca mahalleye madara olur amk" yazıp yayından çıktı. İzleyici sayısı tekrar '0'a düşmüştü.`,
+
+      `SAYFA 28
+
+Tam o sırada mutfaktan Saadet teyzenin terlik şakırtıları duyulmaya başladı. Saadet teyze elinde boş bir tabakla odanın kapısını tekmeyle açtı. "Ulan zevzek piç! Yine kendi kendine ne konuşuyorsun o ekrana bakıp?! Kapıyı niye kilitledin yine, gizli işler mi çeviriyorsun hayırsız amk?!"
+
+Berat gözlerini ekrandan ayırmadan "Anne yayındayım diyorum ya! İş yapıyorum şurada, dijital içerik üretiyorum, auranı siktirme şimdi amk!" diye çemkirdi. Saadet teyze yayın lafını duyunca tabağı masaya sertçe bıraktı: "Ne yayını be zibidinin evladı! Seni kim izlesin amk, tipine bakanın abdesti bozulur! Git şu tabağı mutfağa götür, sonra da yat aşağı! Yarın sabah erkenden kalkıp pazar torbalarını taşıyacaksın amk!"
+
+Berat "Ben pazara gitmem amk, ben dijital figürüm" diye diretmeye çalıştı ama Saadet teyze masadaki kulaklık kablosunu kavradığı gibi çekti. "Görürsün dijital figürü yarın pazarda amk piçi! Pırasa çuvalını sırtlayınca anlarsın aura yükseltmeyi!" diyerek fişi çekti. Monitör karardı, Berat'ın şaheser yayını pat diye kesildi amk.`,
+
+      `SAYFA 29
+
+Ertesi sabah saat 08:00'de Saadet teyze Berat'ı yataktan sürükleyerek çıkardı. Berat’ın gözleri çapaklı, saçları hâlâ kurumuş tavan boyasından dolayı keçeleşmiş durumdaydı amk. Sırtına babasından kalma o devasa gri hırkayı geçirip, eline iki tane devasa pazar arabasını tutuşturdu.
+
+Pazar yerine geldiklerinde etraftaki bağıran pazarcılar, bağrış çağrış ve çamurlu tezgahlar Berat’ın tüm yaşam enerjisini emdi. "Benim burada ne işim var amk," diye içinden söverken Saadet teyze önden pırasaları, patatesleri çuvalla arabaya doldurmaya başladı. Pazar arabası ağırlaştıkça Berat’ın dizleri titremeye, bilekleri bükülmeye başladı amk.
+
+Tam o sırada tezgahın birinin önünde mahallenin o havalı genç grubu belirdi. Berat pazar arabasını çekerken yüzünü hırkasının yakasına saklamaya çalıştı ama ayağı pazarcının yere attığı çürük domatese takıldı. Berat dengesini kaybedip gürültüyle pazar arabasının üzerine devrildi. Arabadaki 5 kilo patates ve 3 kilo soğan etrafa saçıldı amk.`,
+
+      `SAYFA 30
+
+Patatesler pazarın ortasında yuvarlanırken pazarcılardan biri "Ulan dikkat etsene dev gibi adamsın amk piçi!" diye kükredi. Mahalledeki gençler Berat’ın patateslerin arasında çamurlu bir halde yatışını görünce kahkahalara boğuldu. "Ooo Berat naber lan? Patates tarlasına mı indin amk?" diyerek videoya çekmeye başladılar.
+
+Saadet teyze utancından elindeki pırasa demetiyle Berat’ın kafasına vurdu: "Ulan iki adımı atamadın, arabayı devirdin rezil evlat amk! Topla şu patatesleri çabuk!" Berat kıpkırmızı olmuş suratıyla çamurlu patatesleri teker teker toplarken aura puanı evrenin karanlık deliklerinde yok olup gitti.
+
+Eve dönüp kendisini odasına kilitlediğinde yatağın altına girmek istedi amk. Hem vücudu ağrıyordu hem de rezilliği mahalleli gençlerin telefon kameralarına kaydedilmişti. Bilgisayarını açıp o gıcırtılı koltuğuna çöktü. "İntikamım acı olacak amk," diye fısıldadı ama önce yarınki Rust wipe'ına hazırlanması gerekiyordu...`
+`SAYFA 31
+
+Pazardan dönüp o çamurlu patates rezilliğini atlattıktan sonra Berat, odasındaki o tanıdık gıcırtılı koltuğa adeta bir kütük gibi çöktü. Bedenindeki ağrılar bir yana, mahalledeki veletlerin telefonla video çekmiş olması düşüncesi zihnini kemiriyordu. "Ulan ya o videoyu TikTok’a atarlarsa?" diye düşündü. Suratından soğuk terler süzülmeye başladı.
+
+Hemen telefona sarılıp arama çubuğuna kendi adını ve mahallenin adını yazarak aratmaya başladı. Neyse ki henüz bir şey yüklenmemişti ama bu, tehlikenin geçtiği anlamına gelmiyordu. Kendisini dış dünyadan tamamen izole etmek, odanın kapısına ikinci bir kilit takmak istiyordu.
+
+Bilgisayarı açtı, Rust sunucusundaki haftalık wipe'a tam iki saat kalmıştı. "Bu sefer fırtına gibi eseceğim," dedi kendi kendine. "Kimseye acımayacağım, karşıma çıkan ilk eve C4'ü yapıştıracağım!" Fakat fareyi tuttuğu eli pazardaki patates poşetlerini taşımaktan hâlâ titriyordu. Strateji yapacak kafası bile kalmamıştı.`,
+
+      `SAYFA 32
+
+Saat tam 20:00'de Rust sunucusu sıfırlandı. Berat, sanki dünya üzerindeki en önemli askeri operasyona başlıyormuş gibi derin bir nefes alıp sunucuya bağlandı. Karakteri çorak sahilde çıplak bir şekilde uyandı. Elindeki taşla ağaçlara vurup odun toplamaya başladı.
+
+O sırada kulaklıktan adım sesleri gelmeye başladı. Berat panikle arkasını döndü. Başka bir oyuncu elindeki mızrakla buna doğru koşuyordu. Berat taşla kendisini savunmaya çalıştı ama kola içmekten pelteye dönmüş refleksleri yüzünden adamın attığı ilk mızrak tam kafasına saplandı.
+
+"ÇAT!"
+
+Ekranda "Öldün" yazısı belirdi. Oyun başlayalı henüz 45 saniye olmuştu. Berat masaya bir yumruk salladı. "Amk haritasında ben doğar doğmaz niye tepeme biniyor bu veletler?!" diye bağırdı. Saadet teyze mutfaktan "Yine ne böğürüyorsun ulan hayırsız!" diye kükreyince Berat sesini kısıp ekrana büzülmek zorunda kaldı.`,
+
+      `SAYFA 33
+
+Oyunda tekrar doğdu. Bu sefer haritanın en ıssız, dağlık ve kimsenin uğramadığı ücra bir köşesine kaçtı. Küçük bir ahşap kulübe kurdu. İçine bir sandık koydu, kapısına da kilit taktı. "İşte benim yeni sığınağım," diye düşündü. "Burada beni kimse bulamaz."
+
+Ancak odanın içindeki ısı giderek artıyordu. Kasadan çıkan sıcak hava ve havalandırılmayan oda yüzünden ortam adeta sauna gibi olmuştu. Berat tişörtünü çıkarıp kenara attı. Aynadaki yansımasına baktığında kat kat olmuş göbeği ve boya kalıntılarıyla kaplı saçlarıyla tam bir felaket tablosuydu.
+
+Tam o sırada kapısının önünde 'GÜM GÜM' diye ayak sesleri yankılanmaya başladı. Dışarıda tam 4 kişilik ağır silahlı bir klan duruyordu. Berat panikle nefesini tuttu. Kulaklıkta mikrofonu bile kapattı, sanki gerçek hayatta odasını basmışlar gibi gıcırtılı sandalyesinde milim kımıldamadan bekledi.`,
+
+      `SAYFA 34
+
+Dışarıdaki adamlardan biri mikrofondan "İçerideki ezik, kapıyı aç da fazla acı çektirmeyelim" dedi. Berat mikrofona yaklaşarak titrek bir sesle "Kanka valla yeni başladım, sandıkta sadece 10 tane odun var, git başka yere raid at amk" diye sızlandı.
+
+Adamlar Berat’ın bu acınası ses tonunu duyunca kahkahayı bastı. "Oğlum bu adam geçen haftaki patatesçi değil mi lan?" dedi gruptan biri. Berat’ın başından aşağı kaynar sular döküldü. Adamlar pazardaki videoyu izlemişlerdi! Sanal dünyada bile kimliğini gizleyemiyordu.
+
+"Yapmayın kanka valla ayıptır ya" demeye kalmadan adamlar kapıya iki tane roket salladı. "GÜÜÜÜM!" Kulübe darmadağın oldu. Berat’ın karakteri havaya uçtu, sandıktaki 10 odun ve bayat etler yağmalandı. Berat ekrana bakakaldı. Ne gerçek hayatta bir saygınlığı vardı ne de bu dijital çöplükte.`,
+
+      `SAYFA 35
+
+Rust'tan yediği bu ağır darbenin ardından hırsından LoL'e girmeye karar verdi. "Sihirdar Vadisi'nde yargı dağıtacağım" diyerek dereceli maça tıkladı. Şampiyon seçim ekranında orta koridoru seçti ve en havalı görünen suikastçı karakterini kilitledi.
+
+Maç başladı. Berat, sanki profesyonel bir e-sporcuymuş gibi ekrana yaklaşarak gözlerini kıstı. Ancak ilk dakikadan itibaren rakipten gelen her yetenek atışını yüzüyle karşılamaya başladı. Karşı rakipten 4 dakikada 3 kere kill yeyince chat'e "kanka benim klavye takılıyor ya, tuşlar basmıyor amk" yazdı.
+
+Takımdaki ormancı oyuncusu anında cevabı yapıştırdı: "Ulan gerizekalı, klavyen takılmıyor, sen oynamayı bilmiyorsun! 5 dakikada koridoru otobana çevirdin amk vasıfsızı!" Berat hırsından mikrofona bağırarak cevap vermeye çalıştı ama heyecandan yine sesi çatlayıp rezil oldu.`,
+
+      `SAYFA 36
+
+Maçın 15. dakikasında skoru 0/11/1 olan Berat, takım arkadaşlarının ağır sövgüleri eşliğinde 'Teslim Ol' oylaması başlattı. Takımdakiler 'Hayır' oyu vererek "Seni bu maçta 40 dakika boyunca süründüreceğiz, kaçamazsın" diyerek Berat’a işkence etmeye başladılar.
+
+Berat ekrandaki o hezimet yazısını izlerken hırsından alt-f4 çekip oyundan çıktı. Bilgisayarın güç düğmesine basıp komple kapattı. "Amk oyunları da bozdu zaten, hiç zevk vermiyor" diyerek suçu yine dış etkenlere attı.
+
+Gece yarısı saat 02:00 olmuştu. Karnı gurul gurul guruldamaya başladı. Mutfaktan bir şeyler aşırmak için odasının kapısını yavaşça araladı. Koridor kapkaranlıktı. Saadet teyzenin horlama sesleri oturma odasından yankılanıyordu. Berat parmak uçlarında mutfağa doğru süzülmeye başladı.`,
+
+      `SAYFA 37
+
+Mutfağa girip buzdolabının kapağını açtı. Sarı ışık Berat’ın perişan yüzüne vurdu. Dolapta dünden kalan yarım tencere pırasa yemeği ve bir kase katılaşmış yoğurt vardı. Berat’ın canı cips ve kola çekiyordu ama evde sadece sağlıklı ev yemekleri kalmıştı.
+
+Tencereyi kapıp tezgaha koydu. Isıtmaya bile üşenip soğuk pırasayı kaşıkla ağzına tıkıştırmaya başladı. Tam ikinci kaşığı atarken mutfağın ışığı aniden 'ÇAT' diye yandı.
+
+Berat panikle kaşığı düşürdü. Mutfak kapısında Saadet teyze, elinde o meşhur terliğiyle dikiliyordu. "Ulan gece yarısı hırsız gibi dolabı mı soyuyorsun hayırsız?!" diye kükredi. Berat ağzında pırasayla "Anne valla acıktım ya, yemek yiyordum sadece" diye geveledi.`,
+
+      `SAYFA 38
+
+Saadet teyze gözlerini süzerek Berat’a baktı. "Gece 2'de soğuk pırasa yiyeceğine gündüz bir işin ucundan tutsaydın ulan! Yüzün sirke satıyor, evde ne kadar yemek varsa süpürüyorsun ama bir kuruş faydan yok bu eve!"
+
+Berat tencereyi tezgaha bırakıp süklüm püklüm odasına doğru kaçmaya çalıştı. Saadet teyze arkasından, "Yarın sabah akrabaların düğünü var, o üstünü başını düzeltip geliyorsun! Seni o yırtık hırkayla götürmem, mahalleye rezil edeceksin bizi!" diye kükredi.
+
+Düğün mü? Berat’ın en büyük kabusu gerçek oluyordu! Kalabalık, akrabalar, "Sen ne iş yapıyorsun oğlum?" soruları ve süslü kızlar... Berat odasına girip kapıyı kilitledi ve yatağın üstüne çökerek tavanı izlemeye başladı. Aura puanı eksi sonsuza doğru yol alıyordu.`,
+
+      `SAYFA 39
+
+Ertesi gün öğlen saat 13:00'te Saadet teyze Berat’ın odasına elinde babasından kalma eski bir takım elbiseyle daldı. "Giy şunu çabuk! Düğün salonuna geç kalacağız!" dedi.
+
+Takım elbise Berat’a en az iki beden küçük geliyordu. Ceketi giydiğinde omuzları sıkışmış, göbeği düğmeleri patlatacak raddeye gelmişti. Pantolonun paçaları ise bileklerinin 10 santim yukarısında kalıyordu. Berat aynaya baktığında tam bir şarlatana benzediğini fark etti.
+
+"Anne ben böyle gelemem amk, palyaçoya benzedim!" diye sızlandı. Saadet teyze ceketinin arkasını çekip düğmeyi zorla ilikledi: "Kapa çeneni! Çok bile sana bu takım! Düş önüme!" Berat çaresizce, paçaları kısa pantolonu ve sıkan ceketiyle dışarı çıkmak zorunda kaldı.`,
+
+      `SAYFA 40
+
+Düğün salonuna girdiklerinde yüksek sesli halay müzikleri ve ışıklar Berat’ın başını döndürdü. Salon hınca hınç doluydu. Saadet teyze Berat’ı akrabaların oturduğu en ön masaya doğru sürükledi.
+
+Masadakiler Berat’ı görünce bir an sessizleşti. Halasının kocası olan İbrahim enişte gözlüğünü indirip Berat’ın o kısa pantolonlu, sıkışmış halini süzdü. "Ooo Berat bey! Hangi rüzgar attı seni buraya? Maşallah enine doğru bayağı bir gelişmişsin oğlum!" diyerek kahkahayı bastı.
+
+Berat yüzü kızararak masanın en arkasındaki sandalyeye büzüldü. "İyiyim enişte amk... yani sağ ol" diye geveledi. Yan masada oturan kuzenleri Berat’ı işaret edip kıkırdamaya başlamıştı bile. Aura puanı salonun zeminine çakılmıştı.`,
+
+      `SAYFA 41
+
+Gelin ve damat salona girip dans etmeye başladığında herkes ayağa kalktı. Saadet teyze Berat’ı kolundan tutup "Kalk ulan, biraz insan arasına karış, takı kuyruğuna gir!" diye zorladı.
+
+Berat süklüm püklüm takı kuyruğunun en arkasına geçti. Önünde mahallenin ve akrabaların gençleri duruyordu. Berat ellerini nereye koyacağını bilemeyip ceketin dar ceplerine sokmaya çalıştı ama "ÇAT" diye ceketin dikişi arkadan patladı.
+
+Arkadaki kuzeni gülmemek için ağzını kapattı. Berat ceketinin dikişinin patladığını anlayınca arkasını duvara yaslayarak yürümeye başladı. Yengeç gibi duvara yapışık bir şekilde ilerlemesi salondaki herkesin dikkatini çekiyordu.`,
+
+      `SAYFA 42
+
+Gelin ile damadın yanına ulaştığında Berat geline altını takmak için uzandı. Ancak o dar ceket yüzünden kolunu rahat kaldıramadı. İğneyi kurdeleye takmaya çalışırken eli titredi ve iğneyi yanlışlıkla damadın koluna batırdı.
+
+Damat "Ayyy ananı!" diye bağırıp kolunu çekti. Salondakiler bir an duraksayıp Berat’a baktı. Berat panikle "Valla kanka kaza oldu amk özür dilerim!" diye bağırdı. Damat kolunu ovuştururken Saadet teyze koşup Berat’ın kulağını kavradı.
+
+"Rezil ettin bizi ulan herif!" diyerek Berat’ı düğün salonunun çıkışına doğru sürüklemeye başladı. Berat patlak ceketli arkasını duvarlara sürterek salondan dışarı fırlatıldı. Akrabaların kahkahaları salonun dışına kadar yankılanıyordu.`,
+
+      `SAYFA 43
+
+Düğün salonundan kaçar adım eve dönen Berat, o dar takımı ve patlak ceketi üzerinden fırlatıp fırlattığı gibi yatağın köşesine attı. Pijamalarını giydi, gıcırtılı sandalyesine oturdu. Güvenli bölgesindeydi ama gururu un ufak olmuştu.
+
+"Ulan bir daha akraba düğününe gidenin amk!" diye bağırdı. Bilgisayarını açtı. Yaşadığı bu ağır travmayı unutmak için hırsla Discord'a girdi. Üç kişilik boş sunucusuna bağlandı.
+
+Sohbet kanalına "Beyler bugün büyük bir operasyon atlattım, yakında detayları anlatacağım" yazdı. Tabii ki kimse cevap vermedi çünkü sunucudaki diğer iki kişi de aylardır çevrimdışı olan botlardı. Berat kendi kendine takılmaya devam etti.`,
+
+      `SAYFA 44
+
+Gece saat 01:00'e geldiğinde moralini düzeltmek için CS2'ye girmeye karar verdi. Maça girer girmez mikrofona yaklaştı, bu sefer havalı görünmek için sesini pesleştirmeye çalışarak "A WP bende beyler, arkamda durun" dedi.
+
+Ancak takımdakilerden biri anında "Ulan bu ses ne, pavyon mikrofonu mu aldın amk?" diye dalga geçti. Berat panikleyip mikrofonu kapattı. Oyunda A bölgesine doğru koşarken kendi attığı sis bombasını yanlışlıkla kendi ayağının dibine düşürdü.
+
+Sisin içinde kör olan Berat, sağa sola rastgele ateş etmeye başladı ve yanlışlıkla kendi takım arkadaşını vurdu. Takım arkadaşı söverek dönüp Berat’ın kafasına tek mermiyi çaktı. Berat ilk rauntta kendi arkadaşı tarafından infaz edilmişti.`,
+
+      `SAYFA 45
+
+Ekranda "Öldün" yazısı yanıp sönerken Berat klavyeye sertçe bir yumruk salladı. Yapış yapış olan tuşlardan iki tanesi fırlayıp odanın karanlık köşesine yuvarlandı.
+
+"HASSİKTİR!" diye bağırdı Berat. Halının üstünde dizüstü çöküp fırlayan tuşları aramaya başladı. Yatağın altında kurumuş bir cips paketi ve iki haftalık çorabın arasında 'Enter' tuşunu buldu. Tuşu alıp yerine oturtmaya çalışırken parmağını plastik kenara sıkıştırdı.
+
+"Ayyy ananııı!" diye inlerken odanın kapısı güm diye açıldı. Saadet teyze elinde süpürge sapıyla belirdi: "Saat gecenin üçü ulan hayırsız! Düğünde rezil ettiğin yetmedi, evde de rahat vermiyorsun!" diyerek süpürgeyi Berat’ın kalçasına yapıştırdı. Berat tuş elinde, kalçasını tutarak yatağın üzerine kapaklandı. 45 sayfa geride kalmıştı ve Berat’ın eziklik destanı tüm hızıyla sürüyordu...`
+
+`SAYFA 46
+
+Süpürge sapının acısıyla yatağa kapaklanan Berat, Saadet teyzenin kapıyı güm diye kapatıp gitmesinden sonra bir süre kımıldayamadan öylece yattı. Kalçası sızlıyor, elinde sıkı sıkıya tuttuğu 'Enter' tuşu avucuna batıyordu. "Amk ya," diye mırıldandı gözlerinden süzülen bir damla yaşla. "Bir Enter tuşunu takamadık diye yediğimiz dayağa bak!"
+
+Sessizce yataktan doğrulup tuşu klavyeye monte etmeye çalıştı. Tuş "ÇAT" diye yerine oturdu ama şekerli kola kalıntılarından dolayı basılı kaldı. Berat parmağıyla ne kadar çekerse çeksin tuş yukarı çıkmıyordu. Klavyeyi ters çevirip masaya vurmaya başladı.
+
+"PAT! PAT! PAT!"
+
+Odanın altındaki komşu Müzeyyen teyze tavana süpürge sapıyla vurmaya başladı: "Yeter ulan gece yarısı ne çakıyorsunuz oraya!" Berat panikle klavyeyi kucağına çekip yatağın altına saklandı. Bilgisayarın ışığında titreyerek Müzeyyen teyzenin sövmelerinin bitmesini bekledi. Aura puanı mahallenin kanalizasyon sistemine kadar çöküş yaşamıştı.`,
+
+      `SAYFA 47
+
+Ertesi gün öğlen saat 14:00'te uyanan Berat, mutfağa geçtiğinde masanın üzerinde Saadet teyzenin hazırladığı bir alışveriş listesi ve 100 lira para buldu. Notta şu yazıyordu: "Bakkaldan 2 ekmek, 1 kilo peynir al. Gelirken de Müzeyyen teyzeden özür dile, gece kadıncağızı uyutmamışsın hayırsız evlat!"
+
+Müzeyyen teyzeden özür dilemek mi? Müzeyyen teyze mahallenin en kindar, gözü hiçbir şeyi görmeyen komşusuydu. Berat’ın dizleri titremeye başladı. "Ben Müzeyyen teyzenin kapısına gitmem amk," diye düşündü. "Kadın beni bastonuyla kovalar!"
+
+Ancak Saadet teyzenin gazabından korktuğu için mecbur kapüşonlusunu kafasına çekip alt kata indi. Müzeyyen teyzenin kapısının önüne gelince derin bir nefes aldı. Zile basmak için elini kaldırdı ama eli öyle bir titriyordu ki kapı ziline tam üç kere üst üste basıp bıraktı: "ZIRRR! ZIRRR! ZIRRR!"`,
+
+      `SAYFA 48
+
+Kapı hışımla açıldı. Müzeyyen teyze elinde bastonu, gözlerinde alevlerle belirdi. Karşısında kafası kapüşonlu, omuzları çökmüş, titreyen Berat’ı görünce "Ulan hırsız var!" diye bağırıp bastonu Berat’ın omzuna yapıştırdı.
+
+"Ayyy Müzeyyen teyze ben Berat amk... yani Berat’ım ben teyze vurma!" diye bağırdı Berat. Müzeyyen teyze gözlüğünü takıp baktı: "Ulan sen misin gece yarısı tepemde ceviz kıran hayırsız?! Ne basıyorsun zile alacaklı gibi?!"
+
+Berat süklüm püklüm, "Teyze gece klavye şey oldu da... annem özür dilesin dedi..." diye geveledi. Müzeyyen teyze "İstemez senin özrünü! Git önce o yüzünü yıka, boya kalıntıları hâlâ kulağının arkasında duruyor!" diyerek kapıyı suratına çarptı. Berat merdivenlerde kalakaldı. İnsanlarla iletişim kurma çabası yine felaketle sonuçlanmıştı.`,
+
+      `SAYFA 49
+
+Sokağa çıkıp bakkala doğru yürümeye başladı. Güneş ışığı gözlerini öyle bir yakıyordu ki, vampir gibi elleriyle yüzünü kapatarak yürümek zorunda kaldı. Mahallenin çocukları sokakta futbol oynuyordu. Berat yanlarından geçerken top Berat’ın bacağına çarptı.
+
+Çocuklardan biri "Ağabey atsanıza topu!" diye bağırdı. Berat gaza geldi. "Şimdi bunlara nasıl şut çekilir göstereyim de karizmamı toparlayayım" diye düşündü. Topa doğru gerildi, var gücüyle ayağını savurdu.
+
+Ancak kola içmekten koordinasyonunu kaybetmiş bacağı boşa düştü. Topa vurmak yerine kendi bileğine basıp dengesini kaybetti ve çamurlu kaldırımın ortasına kıç üstü kapaklandı. Top ise tın tın yuvarlanıp bakkal Hüseyin amcanın dükkanının camına çarptı.`,
+
+      `SAYFA 50
+
+Çocuklar kahkahayı bastı: "Ağabey kendi kendine çalım attı amk!" diye dalga geçmeye başladılar. Bakkal Hüseyin amca kapıya çıkıp "Ulan Berat yine mi sen devrildin buraya! Camımı kıracaksın hayırsız, kalk oradan!" diye bağırdı.
+
+Berat çamurlu eşofmanını ovuşturarak ayağa kalktı. Yüzü kıpkırmızı olmuştu. Ekmek ve peyniri kapıp parayı masaya fırlattı ve koşar adım eve kaçtı. Eve girer girmez kapıyı kilitleyip yatağının altına girmek istedi.
+
+"Bir daha dışarı çıkanın amk!" diye kükredi odasında. Bilgisayarı açtı, gıcırtılı sandalyesine çöktü. Dış dünyada sıfırdı ama dijital dünyada en azından kimse ayağına çelme takıp düşürmüyordu. Hemen LoL'e girip moral bulmaya çalıştı.`,
+
+      `SAYFA 51
+
+LoL maçına girdiğinde dereceli yerine normallerde takılmaya karar verdi. "Burada acemi veletler olur, hepsini ezer geçerim" diye düşündü. Orta koridora geçip en sevdiği şampiyonu seçti.
+
+Ancak maça girer girmez karşı rakipteki oyuncunun kullanıcı adını gördü: 'Müzeyyen_Teyze_31'. Berat bir an duraksadı. "Yok amk, tesadüftür" dedi kendi kendine. Ama karşı rakip chat'e yazdı: "Ulan Berat sen misin bu? Gece tepemde gürültü yaptığın yetmedi, oyunda da mı karşıma çıktın?!"
+
+Berat’ın başından aşağı kaynar sular döküldü. Müzeyyen teyzenin torunu anneannesinin hesabıyla oyuna girmişti! Berat heyecandan elleri titreyerek klavyeye basmaya başladı ama basılı kalan 'Enter' tuşu yüzünden karakteri hareket etmek yerine sürekli sohbet kutusunu açıyordu.`,
+
+      `SAYFA 52
+
+Karşı rakip Berat’ı kule altında sıkıştırıp saniyeler içinde kesti. Chat'e "Ezik Berat, gece de böyle ses çıkarıyordun amk" diye yazdı. Berat panikle kulaklığı çıkarıp masaya attı.
+
+"Ulan sanal dünyada bile Müzeyyen teyzenin torununa madara olduk!" diye kükredi. Oyunu komple kapatıp bilgisayarı fişten çekti. Odada volta atmaya başladı. Nereye gitse, ne yapsa rezillik peşini bırakmıyordu.
+
+Karnı acıkınca mutfağa yöneldi. Saadet teyze evde yoktu, komşuya oturmaya gitmişti. Mutfakta tezgahın üstünde bir kase kısır ve bir sürahi ayran vardı. Berat kısır tabağını kaptığı gibi odasına getirdi. Masanın üzerine koyup kaşıklamaya başladı.`,
+
+      `SAYFA 53
+
+Kısırı tıkınırken bir yandan da telefondan TikTok videolarını kaydırıyordu. Karşısına '1 Günde Zihin Gücüyle Aura Yükseltme' adında bir canlı yayın çıktı. Yayındaki adam "Gözlerinizi kapatın, derin nefes alın ve kendinizi bir kaplan gibi hissedin" diyordu.
+
+Berat kısır kaşığını ağzına sokmuş bir halde gözlerini kapattı. "Ben bir kaplanım amk, ben bu mahallenin kralıyım" diye mırıldanmaya başladı. Derin bir nefes alayım derken genzine kısırın acı pul biberi kaçtı.
+
+"ÖHHÖÖÖ! ÖHÖÖÖ!"
+
+Berat şiddetle öksürmeye başladı. Öksürürken burnundan kısır taneleri fırladı ve direkt monitörün ekranına yapıştı. Gözlerinden yaşlar süzülürken "Ayyy ananııı yandım!" diye bağırıp banyoya doğru koştu. Kaplan olacağım derken kısırla boğulma tehlikesi atlatmıştı.`,
+
+      `SAYFA 54
+
+Banyoda yüzünü gözünü yıkadıktan sonra aynaya baktı. Burun deliklerinden birinde hâlâ bir tane maydanoz yaprağı duruyordu. Maydanozu çekip çıkardı ve kendi acınası haline lanet okudu.
+
+"Aura yükselteceğiz derken ciğerimizi bıraktık amk," diye sızlandı. Odasına dönüp monitörün üzerindeki kısır tanelerini temizlemek için peçete aradı ama yine bulamadı. Mecburen masanın kenarındaki o meşhur üç haftalık kirli çorabıyla monitörü silmeye başladı.
+
+Monitör leke içinde kalmıştı. Ekranı açtığında görüntünün ortasında bulanık bir kısır yağı lekesi belirdi. Berat "Neyse kanka crosshair niyetine kullanırım" diyerek suçu yine absürt bir mantığa bürüdü.`,
+
+      `SAYFA 55
+
+Gece saat 23:00'te Saadet teyze eve döndü. Elinde bir poşetle Berat’ın odasının kapısını açtı. "Kalk ulan hayırsız! Sana mahalledeki terzi Nuri amcadan bir iş buldum!" dedi.
+
+Berat gözlerini devirdi: "Anne ben terziye gidemem amk, benim ellerim hassas, iğne batar!" Saadet teyze poşeti Berat’ın kafasına fırlattı: "Kapa çeneni! Yarın paçası uzun pantolonları dikmeyi öğreneceksin, en azından kendi gitiğin pantolonu dikersin zevzek!"
+
+Berat poşeti açtı. İçinde terzi Nuri amcanın denemesi için gönderdiği bir sökük kazak ve bir çuval iplik vardı. Berat kazaktaki söküğü görünce "Ben bilgisayar mühendisliği düşünen adamım, bana yaptırdıkları işe bak amk" diye kendi kendine sövüp durdu.`,
+
+      `SAYFA 56
+
+Ertesi sabah saat 09:00'da Saadet teyze Berat’ı sürükleyerek terzi dükkanına götürdü. Terzi Nuri amca gözlüğünün arkasından Berat’a bakıp "Oğlum senin ellerin niye böyle titriyor, parkinson mu oldun?" diye sordu.
+
+Berat "Yok usta, gece çok kahve içtim de" diye yalan söyledi. Oysa gece sabaha kadar Rust sunucusundaki evinin yıkılışını izlemekten göz kapağı bile seyriyordu. Nuri amca eline bir iğne ve iplik tutuşturdu: "Geç şu sandalyeye, şu pantolonun paçasını dik bakayım."
+
+Berat iğneyi eline aldı. İpliği iğnenin deliğinden geçirmeye çalıştı ama gözleri uykusuzluktan odaklanamadığı için iplik bir türlü delikten geçmiyordu. İpliğin ucunu tükürükleyip tekrar denedi ama elindeki titreme yüzünden iğneyi tam başparmağına sapladı!`,
+
+      `SAYFA 57
+
+"AYYY ANANIII!"
+
+Berat çığlığı basıp parmağını ağzına soktu. Terzi Nuri amca gözlüğünü fırlatıp ayağa kalktı: "Ulan daha ilk dakikadan kendini şişledin amk! Bırak şu iğneyi, dükkanı kan gölüne çevireceksin!"
+
+Saadet teyze utancından yerin dibine girdi. Berat’ın kulağını kavradığı gibi terzi dükkanından dışarı sürükledi. "Ulan marangozda belini sakatlarsın, terzide parmağını şişlersin, sen ne işe yararsın amk hayırsızı?!" diye yol boyunca bağırdı.
+
+Berat kulağı kıpkırmızı bir halde arkadan takip ediyordu. Mahalledekiler yine bunları izleyip kıkırdıyordu. Berat’ın karizması ve aura puanı tamamen sıfırın altına inmişti.`,
+
+      `SAYFA 58
+
+Eve döndüklerinde Berat kendisini odasına atıp kapıyı kilitledi. Parmağına yara bandı yapıştırdı. Sandalyesine çöküp "Bu dünya benim gibi yetenekleri kaldıramıyor amk" diye kendi kendini teselli etmeye çalıştı.
+
+Bilgisayarı açtı. CS2'ye girmeye karar verdi. "Bu sefer hırsımı oyundan çıkaracağım" dedi. Maça girdi. Parmağındaki yara bandı yüzünden fareye tam basamıyordu ama yine de oynamaya çalıştı.
+
+Maçta tam bir rakiplere pusmuş beklerken ekrandaki o kısır yağı lekesi yüzünden adamın kafasını göremedi. Karşı rakip köşeden çıkıp Berat’ı tek mermiyle yere serdi. Takımdakiler chat'e "Bu ne biçim pusma amk botu" yazarak sövmeye başladı.`,
+
+      `SAYFA 59
+
+Berat hırsından masayı yumrukladı. Yapış yapış olan klavye masadan kayıp yere düştü. Kablosu gerilip kasanın arkasındaki USB girişini kırdı.
+
+"HASSİKTİR!"
+
+Klavye tamamen devre dışı kalmıştı. Ekrandaki karakter olduğu yerde çakılı kaldı. Takımdakiler Berat’ı oylamayla maçtan attı. Berat halının üzerine çökmüş, kırık USB kablosuna bakarak ağlamaklı oldu.
+
+"Klavye de gitti amk..." diye fısıldadı. Şaheser bilgisayarı artık klavyesiz bir çöp yığınına dönüştü. Saadet teyzenin terlik sesleri koridorda yankılanmaya başladığında Berat odanın en karanlık köşesine büzüldü.`,
+
+      `SAYFA 60
+
+Gecenin karanlığında kırık klavyesi ve yaralı parmağıyla baş başa kalan Berat, hayatının en dip noktasındaydı. Ne bir iş başarabiliyordu ne de oyun oynayabiliyordu.
+
+"Yarın," dedi kendi kendine fısıldayarak. "Yarın bakkal Hüseyin amcadan borç klavye isteyeceğim... Ya da Saadet teyzenin cüzdanından aşırcam..."
+
+Aura puanı artık ölçülemez bir kara deliğe dönüşmüştü. 60 sayfa geride kalmış, Berat’ın eziklik ve vasıfsızlık macerası son 10 sayfaya doğru tüm hızıyla yaklaşmıştı...`
+
+`SAYFA 61
+
+Kırık klavyenin başında amk hayatına lanet okurken Berat’ın gözü masadaki yarım kalmış asitsiz kola kutusuna takıldı. "Sikerim böyle işi de şansı da!" diye böğürerek kutuyu duvara fırlattı. Kola yapış yapış duvardan süzülüp Saadet teyzenin yeni yaptırdığı tavan boyasının amına koydu. Tam o sırada kapı "TAK TAK TAK" diye kırılırcına çalmaya başladı. 
+
+Saadet teyze içeriye bir hışımla daldı, elinde bildiğin tahta merdane var amk. "Ulan orospu fırlatması! Ne atıyorsun duvara, piç ettin güzelim boyayı!" diye kükreyip merdaneyi Berat’ın baldırına yapıştırdı. Berat "Ayyyy ananı sikeyim anne dur!" diye çığlığı bastı ama dilden kaçış yoktu. 
+
+Saadet teyze merdaneyi savura savura "Seni doğuracağıma taş doğursaydım amk vasıfsız piçi! Yarına o klavyeyi de, o sikik bilgisayarı da çöpe atmazsam bana da Saadet demesinler!" diye bağırıp kapıyı suratına çarptı. Berat baldırını ovuşturarak yatağın üzerine kapaklandı. Hem gütü acıyordu hem de yarın klavyesiz kalma korkusu yüreğini dağlıyordu.`,
+
+      `SAYFA 62
+
+Ertesi sabah saat 10:00'da Berat pezevenk gibi gözleri şiş bir halde uyandı. Klavyenin kablosu amip gibi kopuk duruyordu. Akşama Rust wipe'ı vardı ve klavye olmadan girmek imkansızdı amk. Tek çare bakkal Hüseyin amcanın yanına gidip borç klavye istemek ya da Saadet teyzenin çantasından para yürütmekti.
+
+Saadet teyzenin odasına çakal gibi süzüldü. Kadın koltukta horul horul uyuyordu. Masanın üzerindeki çantasını yavaşça açtı. İçinden buruşuk bir 200 lira kaptı. Tam arkasını dönüp kaçacakken Saadet teyze uykusunda "Ulan Berat seni sikeyim..." diye mırıldanınca Berat’ın götü tutuştu, fırlayıp evden kaçtı.
+
+Sokağa fırladığında rüzgar götünü kesiyordu amk. Kapüşonlusunu kafasına çekip bakkala doğru koştu. Yolda mahallenin o döl ısrafı veletleri yine köşede durmuş sigara otlanıyordu. Berat’ı görünce "Ooo patatesçi piç naber lan?" diye bağırdılar. Berat içinden "Ananızın amı naber" dese de dışından "İyi kanka amk" deyip bakkala daldı.`,
+
+      `SAYFA 63
+
+Bakkal Hüseyin amca kasanın arkasında çay içiyordu. Berat parayı masaya güm diye vurup "Hüseyin amca bana tez altından ucuz bir klavye ver amk, acil durum var!" dedi. Hüseyin amca Berat’a 'senin ben sıfatını sikeyim' der gibi baktı.
+
+"Ulan velet, sabah sabah ne bağırıyorsun amk!" dedi Hüseyin amca. "Arka depoda eski bir membran klavye var, tuşlarının yarısı silinmiş, işini görürse al git amk piçi." Depodan tozlu, leş gibi bir klavye çıkardı. Klavye resmen 2005 yılından kalma bir hurdaydı amk.
+
+Berat mecburen 200 lirayı bayıldı. Üstünü bile beklemeden klavyeyi kucağına alıp eve doğru fırladı. Eve girer girmez odasına kaçtı, kapıyı sürgüledi. Klavyeyi kasaya taktı. Tuşlar "ÇAT PAT" diye traktör gibi ses çıkarıyordu ama en azından çalışıyordu amk! "Şimdi o Rust sunucusundaki orospu evlatlarının anasını sikeceğim" diye gaza geldi.`,
+
+      `SAYFA 64
+
+Rust sunucusuna girdiğinde saat 20:00'di. Müzeyyen teyzenin torunu olan o piç velet yine sunucudaydı. Berat eline bir tahta mızrak alıp o veledin evine doğru koşmaya başladı. "Senin ananı avradını sikeceğim ulan!" diye bağırarak kapıya mızrakla vurmaya başladı.
+
+İçerideki velet mikrofonu açıp "Ooo ezik Berat, o leş klavyeyle mi geldin amk?" diye kahkahayı bastı. Berat gaza gelip "Aç ulan kapıyı amına kodumun veledi!" diye kükredi. Ama o traktör sesli klavyenin 'Shift' tuşu basılı kaldığı için Berat karakterini koşturamadı. 
+
+Velet kapıyı açıp elindeki pompalı tüfekle Berat’ın suratının tam ortasına "BOMM!" diye çaktı. Berat’ın karakterinin beyni duvara sıçradı amk. Ekranda "Öldün" yazısı çıkınca Berat kudurup masaya yumruğu bastı: "SİKERİM BÖYLE OYUNU DA, TUŞU DA, MÜZEYYEN TEYZENİN DE AMINA KOYAYIM!"`,
+
+      `SAYFA 65
+
+O hırsla bilgisayarı kapatıp LoL'e girdi. "Sihirdar Vadisi'nde analarını ağlatacağım alayının!" diyerek maça tıkladı. Şampiyon olarak Yasuo seçti. Maç başladı ama o hurda klavyenin 'Q' tuşu bazen basıyor, bazen basmıyordu amk.
+
+Koridorda rakip oyuncu Berat’ı darmadağın etti. 10 dakikada skoru 0/8/0 oldu. Takımdaki ormancı "Ulan Yasuo senin ananı avradını sikeyim, bu ne biçim oynamak amk yetim piçi!" diye sövmeye başladı. Berat mikrofonu açtı: "Klavye bozuk amına koyayım, tuş basmıyor!"
+
+Takımdakiler topluca "Mazeretini sikeyim senin göt vereni, sil şu oyunu piç!" diye bağırıp chat'ten sövmeye devam ettiler. Berat’ın sinirden gözleri doldu, gözyaşları yanaklarından süzülürken "Siz benim kim olduğumu biliyor musunuz amk veletleri!" diye bağırdı ama kimse siklemedi. Maçı 0/15 skoruyla kaybedip küfürler eşliğinde bozguna uğradı.`,
+
+      `SAYFA 66
+
+Gece saat 02:00 olmuştu. Sinirden ve acıktan karnı zil çalıyordu amk. Mutfaktan yiyecek bir şeyler çalmak için odadan süzüldü. Koridorda yürürken ayağı Saadet teyzenin kapının önüne koyduğu boş terliğe takıldı.
+
+"HASSİKTİR!"
+
+Berat gürültüyle yere kapaklandı, kafasını portmantonun sivri köşesine "ÇAT!" diye çarptı. Alnı yarıldı amk, kan süzülmeye başladı. Saadet teyze ışığı yakıp koridora fırladı. Karşısında alnı kanayan, yerde hamamböceği gibi yatan Berat’ı görünce "Ulan gece yarısı yine ne bok yedin amk evladı!" diye kükredi.
+
+Berat alnını tutarak "Anne alnım yarıldı amk yardım et!" diye bağırdı. Saadet teyze "Yarılsın amına koyayım, içinde beyin yok zaten boş kafa!" diyerek mutfaktan bir bez getirip Berat’ın suratına fırlattı. "Geç banyoya temizlen, yatağı kan etme orospu fırlatması!" diyerek odasına döndü.`,
+
+      `SAYFA 67
+
+Banyoya gidip aynaya baktığında tam bir felaket gördü. Alnında kocaman bir yarık, yüzünde kurumuş kan ve saçları yolunmuş tavuk gibi amk. "Ulan ben bu hayata niye geldim amına koyayım?" diye sövdü kendi kendine. 
+
+Alnına yara bandını yapıştırdı. Odasına döndü. Bilgisayarın ışığı yüzüne vuruyordu. Sandalyesine çöktü, sandalye "GIKAAA" diye inledi amk. Discord'a girdi. O üç kişilik boş sunucusuna bakıp "Ulan bir tane bile dostumuz yok şu hayatta amk," diye sızlandı.
+
+O sırada sunucuya aniden biri katıldı. Kullanıcı adı 'Kral_Player_31' olan bir hesaptı. Berat heyecanla mikrofonu açtı: "Sa kanka hoş geldin amk!" Karşıdaki ses "Ulan Berat sen misin o amk eziği? Yanlışlıkla tıkladım sunucuna amk tık tıkı" deyip anında sunucudan çıktı. Berat’ın kalbi bir kez daha darmadağın oldu amk.`,
+
+      `SAYFA 68
+
+Ertesi gün Saadet teyze Berat’ın odasına elinde süpürgeyle daldı. "Kalk ulan gütü boklu! Mahalledeki kasap Rıfat’ın yanına çırak olarak gireceksin! Et taşıyacaksın, kıyma çekeceksin, adam olacaksın amk!" dedi.
+
+Berat panikle "Anne ben et taşıyamam amk, vejetaryenim ben!" diye yalan salladı. Saadet teyze süpürge sapını Berat’ın kıçına oturtup "Yemişim senin vejetaryenliğini amına kodumun şişkosu! Dün gece dolaptaki köfteleri yerken vejetaryen değildin amk!" diye kükredi.
+
+Berat çaresizce yataktan yuvarlandı. Eşofmanını giyip kasap dükkanına doğru yola çıktı. Yolda mahallenin veletleri bunun alnındaki devasa yara bandını görünce "Ooo Berat naber lan? Kafana roket mi yedin amk?" diye dalga geçtiler. Berat "Ananızın amını yedim" diye içinden söverek kasaba daldı.`,
+
+      `SAYFA 69
+
+Kasap Rıfat amca elinde devasa satırla et doğruyordu. Berat’ı görünce "Ooo Saadet ablanın işe yaramaz evladı gelmiş amk! Tut bakayım şu dana karkasının ucundan!" diyerek 50 kiloluk et kütlesini Berat’ın kucağına fırlattı.
+
+Berat "Hıııınggg!" diye inleyerek eti tutmaya çalıştı ama bacakları titredi. Et elinden kayıp buz gibi dükkan zeminine "ŞLAKKK!" diye yapıştı. Üzerine de dükkanın kedisi atlayıp etten bir parça kaptı.
+
+Kasap Rıfat amca satırı tezgaha saplayıp "Ulan senin ben amına koyayım! Eti yere düşürdün, kediyi besledin amk vasıfsızı! Defol git dükkanımdan, seni buraya gönderen anana da selam söyle amk!" diye bağırdı. Berat eti bile kaldıramadan dükkandan kovulmuştu amk.`,
+
+      `SAYFA 70
+
+Eve döndüğünde Saadet teyze Berat’ın kasaptan kovulduğunu duyunca terliği değil, bu sefer evdeki elektrikli süpürgenin borusunu kaptı. "Ulan kasaptan bile kovuldun amına kodumun sığıra! Seni doğuracağıma pazar torbası doğursaydım amk!" diyerek boruyu Berat’ın sırtında parçaladı.
+
+Berat ağlayarak odasına kaçtı, kapıyı arkasından sürgüledi. O gıcırtılı sandalyesine çöktü. Alnı yarık, sırtı morarmış, elinde hurda bir klavye, ekranında 0 izleyicili yayın ve aura puanı -999.999.999 seviyesinde bir hayat...
+
+Monitördeki yansımasına baktı. Yanağında 'W' harfi izi, kafasında kurumuş tavan boyası ve alnında yara bandı... "Ulan 70 sayfa boyunca anamız sikildi amk," diye fısıldadı. "Ama yarın... yarın vallahi LoL'de Challenger olacağım amk!" 
+
+Berat, bilgisayarın gıcırtılı fan sesi ve Saadet teyzenin kapı arkasından sövmeleri eşliğinde yeni maça 'Bul' butonuna bastı. 70 sayfalık bu eziklik ve sefalet destanı burada bitti ama Berat'ın katıksız orospu çocukluğu ve asosyalliği sonsuza kadar devam edecekti...`
+
+`SAYFA 71
+
+**BU OROSPU ÇOCUĞUNUN HİKAYESİNİN DEVAMI GELECEK BEKLEMEDE KALIN**`
+  
+];
 
     let currentPage = 0;
 
